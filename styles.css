@@ -1,18 +1,36 @@
+body{
+    background-color: #EEEEEE;
+}
+
 #header-img{
     width: 300px;
     height: auto;
     padding: 10px;
 }
 #header{
-    position: relative;
+    height: 80px;
+    width: 100%;
 }
-#header a{
+#header ul{
+    float: right; 
+    margin-right: 20px;
+}
+#header ul li{
+    list-style: none;
+    margin: 0px 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+#header ul li a{
     font-size: 15px;
     padding: 1px 10px;
     transition: .4s;
-    float: right;
-    margin-bottom: 400px;
 }
-#nav-bar{
-    background-color: grey;
+#upsale #middle{
+    position: absolute;
+    top: 50px; 
+    left: 50px;
 }
+
+
+
